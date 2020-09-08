@@ -9,17 +9,76 @@
             width: 300px;
             height: 340px;
         }
-        img{
+        .mainDiv {
+            display: flex;
+            flex-direction: column;
+        }
+        .img1{
             width: 270px;
             height: 145px;
-            margin: 25px 15px ;
+            margin: 20px 15px 0 15px;
+        }
+        .sectionDiv {
+            background-color: #424242;
+            width: 270px;
+            height: 160px;
+            margin: 0 15px 20px 15px;
+            display: flex;
+            flex-direction: column;
+            border-bottom-left-radius: 5px;
+            border-bottom-right-radius: 5px;
+        }
+        .whatFontColor{
+            color: #E6E6E6;
+            font-size: 25px;
+            margin: 8px 15px 3px 15px;
+        }
+        .whatFontColor2{
+            color: #A4A4A4;
+            font-size: 15px;
+            margin: 0 15px 20px 15px;
+        }
+        .whatFontColor3{
+            color: #A4A4A4;
+            font-size: 10px;
+            margin: 0 15px 20px 15px;
+        }
+        .footerDiv {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            border-top: 1px solid #89898B;
+            padding: 12px;
+            color: #89898B;
+        }
+        .footerDiv img{
+            height: 20px;
+            width: 20px;
         }
 
     </style>
 </head>
 <body>
     <main>
-       <img src="merongCity.jpg">
+        <div class="mainDiv">
+            <img class="img1" src="merongCity.jpg">
+            <div class="sectionDiv">
+                <div class="whatFontColor"> MERONG CITY</div>
+                <div class="whatFontColor2"> 메롱메롱메롱</div>
+                <div class="whatFontColor3">my life == me-rong</div>
+                <div class="footerDiv">
+
+                    <div>
+                        <img src="balloon.png">
+                        wink study
+                    </div>
+                    <div>
+                        <img src="bookmark.svg">
+                        <img src="more.svg">
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
 </body>
 </html>
